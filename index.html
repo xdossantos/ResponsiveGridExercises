@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Resume Exercises</title>
+
+    <style>
+        .wrapper {
+            display:grid; 
+            grid-template-columns: 30% 20% 40%  ;
+            grid-auto-rows: 100px; 
+        }
+        .wrapper > div {
+            background: #333;
+        }
+        .wrapper > div:nth-child(odd) {
+            background: rgb(189, 116, 116);
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <div> lorem ipsum dolor sit amet</div>
+        <div> lorem ipsum dolor sit amet</div>
+        <div> lorem ipsum dolor sit amet</div>
+
+        <div> lorem ipsum dolor sit amet</div>
+        <div> lorem ipsum dolor sit amet</div>
+        <div> lorem ipsum dolor sit amet</div>
+
+        <div> lorem ipsum dolor sit amet</div>
+        <div> lorem ipsum dolor sit amet</div>
+        <div> lorem ipsum dolor sit amet</div>
+
+        <div> lorem ipsum dolor sit amet</div>
+        <div> lorem ipsum dolor sit amet</div>
+        <div> lorem ipsum dolor sit amet</div>
+
+    </div>
+
+
+</body>
+
+</html>
